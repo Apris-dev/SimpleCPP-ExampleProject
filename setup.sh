@@ -6,7 +6,7 @@ if command -v git >/dev/null 2>&1; then
 	prev_path=$(pwd)
 
 	# Move into script directory
-	cd "$(dirname -- "$0")"
+	cd "$(dirname -- "${BASH_SOURCE[0]:-$0}")"
 
 	# Ensure SimpleCPP is cloned (and vcpkg scripts are)
 	git submodule sync --recursive
