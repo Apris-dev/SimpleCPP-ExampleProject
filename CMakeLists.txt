@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11...4.2)
 
-include(third_party/simplecpp/cmake/Setup_vcpkg.cmake)
+include(third_party/simplecpp/scripts/setup_vcpkg.cmake)
 
 # Ensures vcpkg is installed on computer
 # Install locally to skip
