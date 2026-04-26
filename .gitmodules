@@ -1,0 +1,4 @@
+[submodule "third_party/simplecpp"]
+	path = third_party/simplecpp
+	url = https://github.com/Apris-dev/SimpleCPP.git
+	branch = main

@@ -1,0 +1,32 @@
+﻿# Ignore files, but look through all directories
+*
+!*/
+
+# Src Files
+!*.cpp
+!*.h
+
+# Scripts
+!*.ps1
+!*.sh
+!*.bat
+
+# Resource Files
+!*.res
+
+# Cmake files
+!CMakeLists.txt
+!*.cmake
+
+# Git
+!.git*
+
+# CLion files
+.idea/
+
+# Build files
+cmake-build-debug/
+bin/
+
+# Readme
+!README.md
