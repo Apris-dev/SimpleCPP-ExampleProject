@@ -13,6 +13,7 @@
 
 # Resource Files
 !*.res
+!*.json
 
 # Cmake files
 !CMakeLists.txt
